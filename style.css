@@ -1,0 +1,145 @@
+
+
+
+#logoae{
+
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+main{
+
+    background-color: rgba(71, 18, 18, 0.384);
+    
+}
+
+.checkp{
+
+    width: 50vw;
+
+}
+
+#carouselExampleAutoplaying img {
+
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.text-shadow{
+
+    text-shadow: 1px 1px 5px black;
+}
+
+.texth{
+
+font-size: 5rem;
+}
+
+.cardaround{
+
+    min-height: 140vh;
+
+}
+
+
+.textp{
+
+    font-size: 2rem;
+}
+
+
+.carousel-item {
+
+    height: 50vh;
+
+}
+
+
+
+footer{
+
+    height: 15vh;
+
+}
+
+.predsocial{
+
+    padding-right: 150px;
+    width: 300px;
+}
+
+
+.redsocial{
+
+    width: 30px;
+    height: 30px;
+}
+
+
+@media only screen and (max-width: 960px){
+
+    .alttext{
+
+        top: -45vh;
+    }
+
+    .altbut{
+
+        height: 60vh;
+    }
+
+}
+
+@media only screen and (max-width: 760px){
+
+
+    .altbut{
+
+        height: 40vh;
+    }
+
+    .altimg{
+
+        position: relative;
+        top: -20vh;
+    }
+
+}
+@media only screen and (max-width: 660px){
+
+
+    .altbut{
+
+        height: 20vh;
+
+    }
+
+    .bannerr{
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+      }
+    
+
+}
+
+@media only screen and (max-width: 530px){
+
+
+    .altbut{
+
+        opacity: 0;
+         
+    }
+
+    .predsocial{
+
+        padding-right: 10px;
+        width: 150px;
+    }
+
+}
+
+
