@@ -56,8 +56,6 @@ font-size: 5rem;
 
 }
 
-
-
 footer{
 
     height: 15vh;
@@ -77,69 +75,5 @@ footer{
     height: 30px;
 }
 
-
-@media only screen and (max-width: 960px){
-
-    .alttext{
-
-        top: -45vh;
-    }
-
-    .altbut{
-
-        height: 60vh;
-    }
-
-}
-
-@media only screen and (max-width: 760px){
-
-
-    .altbut{
-
-        height: 40vh;
-    }
-
-    .altimg{
-
-        position: relative;
-        top: -20vh;
-    }
-
-}
-@media only screen and (max-width: 660px){
-
-
-    .altbut{
-
-        height: 20vh;
-
-    }
-
-    .bannerr{
-        height: 100px;
-        overflow: hidden;
-        position: relative;
-      }
-    
-
-}
-
-@media only screen and (max-width: 530px){
-
-
-    .altbut{
-
-        opacity: 0;
-         
-    }
-
-    .predsocial{
-
-        padding-right: 10px;
-        width: 150px;
-    }
-
-}
 
 
