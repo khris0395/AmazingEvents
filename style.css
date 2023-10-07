@@ -17,10 +17,9 @@ main{
     
 }
 
-.checkp{
+.hmaind{
 
-    width: 50vw;
-
+    min-height: 80vh;
 }
 
 #carouselExampleAutoplaying img {
@@ -34,11 +33,6 @@ main{
 
     text-shadow: 1px 1px 5px black;
 }
-
-/* .texth{
-
-font-size: 5rem;
-} */
 
 .cardaround{
 
@@ -64,13 +58,6 @@ footer{
     min-height: 15vh;
 
 }
-
-.predsocial{
-
-    padding-right: 150px;
-    width: 300px;
-}
-
 
 .redsocial{
 
