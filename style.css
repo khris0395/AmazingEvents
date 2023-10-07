@@ -80,3 +80,9 @@ form{
     width: 50vw;
 }
 
+@media only screen and (max-width: 550px) {
+
+    .stext{
+      font-size: 0.7rem;
+}
+}
