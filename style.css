@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logoae{
+
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+main{
+
+    background-color: rgba(71, 18, 18, 0.384);
+    
+}
+
+.checkp{
+
+    width: 50vw;
+
+}
+
+#carouselExampleAutoplaying img {
+
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.text-shadow{
+
+    text-shadow: 1px 1px 5px black;
+}
+
+/* .texth{
+
+font-size: 5rem;
+} */
+
+.cardaround{
+
+    min-height: 140vh;
+
+}
+
+
+.textp{
+
+    font-size: 2rem;
+}
+
+
+.carousel-item {
+
+    height: 50vh;
+
+}
+
+footer{
+
+    min-height: 15vh;
+
+}
+
+.predsocial{
+
+    padding-right: 150px;
+    width: 300px;
+}
+
+
+.redsocial{
+
+    width: 30px;
+    height: 30px;
+}
+
+.wsearch{
+
+    width: 300px;
+}
+.texth{
+
+    font-size: 5rem;
+}
+
+.wreds{
+
+    width: 300px;
+}
+@media only screen and (max-width: 550px) {
+
+    .stext{
+      font-size: 0.7rem;
+
+    }
+    .carousel-item {
+
+        height: 30vh;
+    
+    }
+
+}
