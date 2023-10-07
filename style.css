@@ -1,5 +1,8 @@
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 #logoae{
 
@@ -32,10 +35,10 @@ main{
     text-shadow: 1px 1px 5px black;
 }
 
-.texth{
+/* .texth{
 
 font-size: 5rem;
-}
+} */
 
 .cardaround{
 
@@ -58,7 +61,7 @@ font-size: 5rem;
 
 footer{
 
-    height: 15vh;
+    min-height: 15vh;
 
 }
 
@@ -75,14 +78,29 @@ footer{
     height: 30px;
 }
 
-form{
+.wsearch{
 
-    width: 50vw;
+    width: 300px;
+}
+.texth{
+
+    font-size: 5rem;
 }
 
+.wreds{
+
+    width: 300px;
+}
 @media only screen and (max-width: 550px) {
 
     .stext{
       font-size: 0.7rem;
-}
+
+    }
+    .carousel-item {
+
+        height: 30vh;
+    
+    }
+
 }
