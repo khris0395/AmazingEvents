@@ -34,9 +34,16 @@ main{
     text-shadow: 1px 1px 5px black;
 }
 
+.whcard{
+
+    width: 18rem;
+    height: 22rem;
+
+}
+
 .cardaround{
 
-    min-height: 140vh;
+    min-height: 250vh;
 
 }
 
