@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.fonts{
+
+    font-family: 'Kaushan Script', cursive;
+}
+
+.fontsCuerpo{
+
+    font-family: 'Varta', sans-serif;
+}
+
 #logoae{
 
     width: 200px;
