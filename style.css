@@ -9,16 +9,19 @@
     font-family: 'Kaushan Script', cursive;
 }
 
-.fontsCuerpo{
-
-    font-family: 'Varta', sans-serif;
-}
 
 #logoae{
 
     width: 200px;
     height: 50px;
     padding-left: 10px;
+}
+
+a:hover { 
+
+    background-color: #c41ea8;
+    border-radius: 20px;
+
 }
 
 main{
