@@ -17,7 +17,7 @@
     padding-left: 10px;
 }
 
-a:hover { 
+li > a:hover { 
 
     background-color: #c41ea8;
     border-radius: 20px;
