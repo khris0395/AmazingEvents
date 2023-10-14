@@ -9,6 +9,11 @@
     font-family: 'Kaushan Script', cursive;
 }
 
+.fontCuerpo{
+
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     position: sticky;
     top: 0px;
