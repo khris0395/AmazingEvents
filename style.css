@@ -9,6 +9,12 @@
     font-family: 'Kaushan Script', cursive;
 }
 
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
 
 #logoae{
 
