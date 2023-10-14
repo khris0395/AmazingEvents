@@ -13,7 +13,6 @@ for (let evento of eventos) {
 
     const card = document.createElement("div")
     card.classList.add("card", "shadow", "whcard", "aling-self-around")
-    card.style.width = "18 rem"
 
     card.innerHTML = `<img src="${evento.image}" class="card-img-top h-50" alt="...">
                     <div class="card-body">

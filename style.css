@@ -47,6 +47,12 @@ main{
 
 }
 
+.hdivcards{
+
+    min-height: 130vh;
+
+}
+
 .carousel-item {
 
     height: 50vh;
