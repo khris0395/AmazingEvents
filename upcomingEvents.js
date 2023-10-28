@@ -3,7 +3,6 @@
 
 let allChecks  = document.getElementById("contenedorChecks")
 allChecks.classList.add("d-flex", "justify-content-around", "flex-wrap", "w-75", "align-self-center", "pb-3", "fontCuerpo")
-allChecks.innerHTML
 
 
 // filtrado de la data para obtener los checkbox
@@ -61,7 +60,7 @@ eventosUE.forEach(evento => {
                     <p class="card-text text-truncate fontCuerpo">${evento.description}</p>
                     <div class="d-flex justify-content-around fontCuerpo">
                         <p class="card-text"> $ ${evento.price}</p>
-                        <a href="details.html" class="btn btn-secondary">Details</a>
+                        <a href="./details.html?id=${evento._id}" class="btn btn-secondary">Details</a>
                     </div>
                     </div>`
     
@@ -116,7 +115,7 @@ function filtrado(){
                                     <p class="card-text text-truncate fontCuerpo">${resultado.description}</p>
                                     <div class="d-flex justify-content-around fontCuerpo">
                                         <p class="card-text"> $ ${resultado.price}</p>
-                                        <a href="details.html" class="btn btn-secondary">Details</a>
+                                        <a href="./details.html?id=${resultado._id}" class="btn btn-secondary">Details</a>
                                     </div>
                                     </div>`
                     
@@ -142,7 +141,7 @@ function filtrado(){
                                 <p class="card-text text-truncate fontCuerpo">${evento.description}</p>
                                 <div class="d-flex justify-content-around fontCuerpo">
                                     <p class="card-text"> $ ${evento.price}</p>
-                                    <a href="details.html" class="btn btn-secondary">Details</a>
+                                    <a href="./details.html?id=${evento._id}" class="btn btn-secondary">Details</a>
                                 </div>
                                 </div>`
                 
